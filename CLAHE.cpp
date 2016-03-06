@@ -12,7 +12,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	cv::Mat inp_img = cv::imread("el4.jpg");
+	cv::Mat inp_img = cv::imread("image.jpg");
 	if (!inp_img.data){
 		cout << "Something Wrong";
 		return -1;
